@@ -1,0 +1,75 @@
+
+    @keyframes title {
+        from {background-color: yellow;}
+        to {background-color: red;}
+      }
+
+
+
+.text{
+    font-family: monospace;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+    border-radius: 6px;
+    width: fit-content;
+    background-color: yellow;
+    margin:auto;
+    animation-name: title;
+    animation-duration: 2s;
+      
+}
+.text:hover{
+    border-radius: 12px;
+    font-size:x-large;
+    color: teal;
+    box-shadow: 5px 5px 4px rgba(64, 224, 208, 0.692);
+
+}
+
+
+body{
+    height: 100vh;
+    margin:0;
+    background-color: #fefee3;
+ 
+
+}
+.page{
+    
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container{
+    width:520px;
+    background-color:#ddfff7;
+    display:flex;
+    flex-wrap: wrap;
+ 
+
+}
+
+.box{
+    width:150px;
+    height:150px;
+    background-color: teal;
+    margin:1px;
+    border:10px solid teal;
+    border-radius: 10px;
+    font-family:'Permanent Marker', cursive;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.box:hover{
+    border-color: turquoise;
+    transition: 0.5s;
+}
